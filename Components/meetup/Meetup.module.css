@@ -96,3 +96,6 @@
 	color: red;
 	font-size: 12px;
 }
+
+.detail { text-align: center; }
+.detail img { width: 100%; }

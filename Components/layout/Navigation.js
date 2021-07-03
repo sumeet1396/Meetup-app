@@ -6,7 +6,7 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Meetups</div>
+      <h1 className={classes.logo}><Link href='/'>Meetups</Link></h1>
       <nav>
         <ul>
           <li>
