@@ -2,8 +2,15 @@ import useForm from '../../hook/use-form';
 import Card from '../Ui/Card';
 import classes from './Meetup.module.css';
 
+const formFields = {
+  title: '',
+  image: '',
+  address: '',
+  description: ''
+}
+
 const NewMeetupForm = (props) => {
-  const { handleChange, handleSubmit, values, errors } = useForm( props.onAddMeetup );
+  const { handleChange, handleSubmit, values, errors } = useForm( props.onAddMeetup, formFields );
 
   return (
     <Card>
