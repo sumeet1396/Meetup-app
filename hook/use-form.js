@@ -40,7 +40,6 @@ const validate = (values) => {
     }
 
     return errors;
-
 }
 
 
